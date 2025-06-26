@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineVerse - Premium Movie Streaming</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-film"></i> CineVerse
+                </a>
+                <div class="search-container">
+                    <input type="text" placeholder="Search movies, TV shows..." class="search-input">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <div class="search-results"></div>
+                </div>
+                <nav class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Movies</a>
+                    <a href="#">TV Shows</a>
+                    <a href="#">New Releases</a>
+                    <a href="#">Genres</a>
+                </nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Announcement -->
+        <section class="hero-announcement">
+            <div class="hero-content">
+                <h1>DUNE: PART TWO - NOW STREAMING</h1>
+                <p>Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.</p>
+                <div class="season-selector">
+                    <button class="season-btn active">Trending</button>
+                    <button class="season-btn">New Releases</button>
+                    <button class="season-btn">Coming Soon</button>
+                    <button class="season-btn">Top Rated</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-number">12,564</div>
+                <div class="stat-label">Currently Watching</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">423</div>
+                <div class="stat-label">New Releases</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">8,341</div>
+                <div class="stat-label">Movies Available</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">113</div>
+                <div class="stat-label">Exclusive Content</div>
+            </div>
+        </div>
+
+        <!-- Featured Movies -->
+        <h2 class="section-title">Featured Movies</h2>
+        <div class="movie-grid">
+            <div class="movie-card" data-video-id="dQw4w9WgXcQ" data-title="Interstellar">
+                <img src="./assets/movie.webp" alt="Interstellar" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="movie-year">2014</div>
+                </div>
+                <button class="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div class="movie-info">
+                    <h3 class="movie-title">Interstellar</h3>
+                    <p class="movie-meta">
+                        <span>Sci-Fi</span>
+                        <span>169 min</span>
+                    </p>
+                </div>
+            </div>
+            <div class="movie-card" data-video-id="dQw4w9WgXcQ" data-title="The Dark Knight">
+                <img src="./assets/movie.webp" alt="The Dark Knight" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="movie-year">2008</div>
+                </div>
+                <button class="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div class="movie-info">
+                    <h3 class="movie-title">The Dark Knight</h3>
+                    <p class="movie-meta">
+                        <span>Action</span>
+                        <span>152 min</span>
+                    </p>
+                </div>
+            </div>
+            <div class="movie-card" data-video-id="dQw4w9WgXcQ" data-title="Inception">
+                <img src="./assets/movie.webp" alt="Inception" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="movie-year">2010</div>
+                </div>
+                <button class="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div class="movie-info">
+                    <h3 class="movie-title">Inception</h3>
+                    <p class="movie-meta">
+                        <span>Sci-Fi</span>
+                        <span>148 min</span>
+                    </p>
+                </div>
+            </div>
+            <div class="movie-card" data-video-id="dQw4w9WgXcQ" data-title="Pulp Fiction">
+                <img src="./assets/movie.webp" alt="Pulp Fiction" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="movie-year">1994</div>
+                </div>
+                <button class="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div class="movie-info">
+                    <h3 class="movie-title">Pulp Fiction</h3>
+                    <p class="movie-meta">
+                        <span>Crime</span>
+                        <span>154 min</span>
+                    </p>
+                </div>
+            </div>
+            <div class="movie-card" data-video-id="dQw4w9WgXcQ" data-title="The Shawshank Redemption">
+                <img src="./assets/movie.webp" alt="The Shawshank Redemption" class="movie-poster">
+                <div class="movie-overlay">
+                    <div class="movie-year">1994</div>
+                </div>
+                <button class="play-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <div class="movie-info">
+                    <h3 class="movie-title">The Shawshank Redemption</h3>
+                    <p class="movie-meta">
+                        <span>Drama</span>
+                        <span>142 min</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie News -->
+        <h2 class="section-title">Movie News</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-date">
+                    <i class="far fa-clock"></i> Posted on 13:09
+                </div>
+                <h3 class="news-title">Christopher Nolan's Next Film Announced</h3>
+                <p class="news-excerpt">Oscar-winning director Christopher Nolan has announced his next project, a historical drama about J. Robert Oppenheimer and the creation of the atomic bomb.</p>
+                <div class="news-meta">
+                    <a href="#" class="read-more">Read more</a>
+                    <div class="comment-count">
+                        <i class="far fa-comment"></i> 21 comments
+                    </div>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">
+                    <i class="far fa-clock"></i> Posted on 11:09
+                </div>
+                <h3 class="news-title">New Marvel Phase 5 Details Revealed</h3>
+                <p class="news-excerpt">Marvel Studios president Kevin Feige has revealed new details about the upcoming Phase 5 slate, including release dates for several anticipated films.</p>
+                <div class="news-meta">
+                    <a href="#" class="read-more">Read more</a>
+                    <div class="comment-count">
+                        <i class="far fa-comment"></i> 44 comments
+                    </div>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-date">
+                    <i class="far fa-clock"></i> Posted on 11:10
+                </div>
+                <h3 class="news-title">Avatar 3 Production Wraps</h3>
+                <p class="news-excerpt">James Cameron has announced that production on Avatar 3 has officially wrapped, with the film scheduled for release in December 2024.</p>
+                <div class="news-meta">
+                    <a href="#" class="read-more">Read more</a>
+                    <div class="comment-count">
+                        <i class="far fa-comment"></i> 14 comments
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Latest Reviews -->
+        <h2 class="section-title">Latest Reviews</h2>
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-avatar">SB</div>
+                <div>
+                    <div class="review-author">Simon Ballico</div>
+                    <div class="review-time">7 minutes ago</div>
+                </div>
+            </div>
+            <div class="review-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h3 class="review-movie">Dune: Part Two</h3>
+            <p class="review-text">Denis Villeneuve's sequel surpasses the original in every way. The visuals are breathtaking, the performances are stellar, and the story is even more compelling than the first film.</p>
+            <div class="review-actions">
+                <a href="#" class="review-action">
+                    <i class="far fa-comment"></i> Reply
+                </a>
+                <a href="#" class="review-action">
+                    <i class="fas fa-share"></i> Share
+                </a>
+            </div>
+        </div>
+        <div class="review-card">
+            <div class="review-header">
+                <div class="review-avatar">H</div>
+                <div>
+                    <div class="review-author">Hayden</div>
+                    <div class="review-time">5 minutes ago</div>
+                </div>
+            </div>
+            <div class="review-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <h3 class="review-movie">Oppenheimer</h3>
+            <p class="review-text">Christopher Nolan's masterpiece is a stunning achievement in filmmaking. Cillian Murphy delivers a career-best performance as the father of the atomic bomb.</p>
+            <div class="review-actions">
+                <a href="#" class="review-action">
+                    <i class="far fa-comment"></i> Reply
+                </a>
+                <a href="#" class="review-action">
+                    <i class="fas fa-share"></i> Share
+                </a>
+            </div>
+        </div>
+
+        <!-- Movie of the Week -->
+        <h2 class="section-title">Movie of the Week</h2>
+        <div class="featured-movie">
+            <img src="./assets/movie.webp" alt="The Godfather" class="featured-poster">
+            <div class="featured-info">
+                <h2 class="featured-title">The Godfather</h2>
+                <div class="featured-meta">
+                    <span><strong>Status:</strong> Available</span>
+                    <span><strong>Release year:</strong> 1972</span>
+                    <span><strong>Director:</strong> Francis Ford Coppola</span>
+                    <span><strong>Duration:</strong> 175 min</span>
+                </div>
+                <div class="featured-stats">
+                    <div class="featured-stat">
+                        <div class="featured-stat-number">9.2</div>
+                        <div class="featured-stat-label">IMDb Rating</div>
+                    </div>
+                    <div class="featured-stat">
+                        <div class="featured-stat-number">98%</div>
+                        <div class="featured-stat-label">Heighest Rating</div>
+                    </div>
+                </div>
+                <button class="follow-btn">
+                    <i class="fas fa-plus"></i> Add to Watchlist
+                </button>
+            </div>
+        </div>
+
+        <!-- Poll Section -->
+        <div class="poll-container">
+            <h3 class="poll-title">Who is the greatest movie director of all time?</h3>
+            <div class="poll-options">
+                <div class="poll-option" data-character="Steven Spielberg">
+                    <div class="poll-character">Steven Spielberg</div>
+                    <div class="poll-details">Jurassic Park, Schindler's List</div>
+                    <div class="poll-votes">3,420 votes</div>
+                    <div class="poll-bar" style="width: 45%"></div>
+                </div>
+                <div class="poll-option" data-character="Christopher Nolan">
+                    <div class="poll-character">Christopher Nolan</div>
+                    <div class="poll-details">Inception, The Dark Knight</div>
+                    <div class="poll-votes">5,320 votes</div>
+                    <div class="poll-bar" style="width: 65%"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Video Player Modal -->
+    <div class="modal-overlay" id="videoModal">
+        <div class="video-modal">
+            <button class="close-modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="video-player">
+                <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title" id="videoModalTitle"></h3>
+                <div class="video-meta">
+                    <span>1,250,304 views</span>
+                    <span>24 minutes ago</span>
+                </div>
+                <p class="video-description" id="videoModalDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-film"></i> CineVerse
+                    </div>
+                    <p class="footer-about">The ultimate destination for movie lovers. Stream the latest films, read news, and join our community of cinephiles.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Movies</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> TV Shows</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> New Releases</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Genres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> DMCA</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 CineVerse. All rights reserved. All movie titles and logos are trademarks of their respective owners.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
